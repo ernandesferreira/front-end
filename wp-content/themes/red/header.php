@@ -31,8 +31,9 @@
 	</a>
 
 	<header id="header" role="banner">
+	<div class="banner">
 		<div class="container">
-			<div class="page-header hidden-xs">
+			<div class="page-header hidden-xs site-title-home">
 				<?php if ( is_home() ) : ?>
 					<h1 class="site-title">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -99,6 +100,7 @@
 			</div><!-- #main-navigation-->
 
 		</div><!-- .container-->
+	</div>	<!-- .banner-->
 	</header><!-- #header -->
 
 	<div id="wrapper" class="container">
