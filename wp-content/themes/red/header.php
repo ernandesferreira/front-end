@@ -32,6 +32,9 @@
 
 	<header id="header" role="banner">
 	<div class="banner">
+	<div class="container-banner">
+		<img src="<?php echo get_template_directory_uri()."/assets/images/banner1.jpg"; ?>">
+	</div>
 		<div class="container">
 			<div class="page-header hidden-xs site-title-home">
 				<?php if ( is_home() ) : ?>
@@ -62,7 +65,7 @@
 				<?php endif; ?>
 			</div><!-- .site-header-->
 
-			<div id="main-navigation" class="navbar navbar-default">
+			<div id="main-navigation" class="navbar navbar-default menu-top">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-navigation">
 					<span class="sr-only"><?php _e( 'Toggle navigation', 'odin' ); ?></span>
@@ -74,7 +77,7 @@
 						<?php bloginfo( 'name' ); ?>
 					</a>
 				</div>
-				<nav class="collapse navbar-collapse navbar-main-navigation" role="navigation">
+				<nav class="collapse navbar-collapse navbar-main-navigation barra-menu" role="navigation">
 					<?php
 						wp_nav_menu(
 							array(
@@ -87,15 +90,6 @@
 							)
 						);
 					?>
-					<form method="get" class="navbar-form navbar-right" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
-						<label for="navbar-search" class="sr-only">
-							<?php _e( 'Search:', 'odin' ); ?>
-						</label>
-						<div class="form-group">
-							<input type="search" value="<?php echo get_search_query(); ?>" class="form-control" name="s" id="navbar-search" />
-						</div>
-						<button type="submit" class="btn btn-default"><?php _e( 'Search', 'odin' ); ?></button>
-					</form>
 				</nav><!-- .navbar-collapse -->
 			</div><!-- #main-navigation-->
 

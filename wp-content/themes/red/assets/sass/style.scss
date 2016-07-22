@@ -10,6 +10,7 @@ Author: the Odin team
 Author URI: http://wpod.in/#colaboradores
 */
 
+
 @import
         "variables",           // Theme       Custom Variables
         "bootstrap/bootstrap", // Bootstrap   Styles Core
@@ -24,4 +25,13 @@ Author URI: http://wpod.in/#colaboradores
 }
 #header #main-navigation{
 	margin: 0 0 20px 0;
+}
+.banner, .container-banner, .container-banner>img{
+	width: 100%;
+}
+.container-banner{
+	position: absolute;
+}
+.container-banner img{
+
 }

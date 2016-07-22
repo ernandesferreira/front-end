@@ -1,0 +1,55 @@
+@import
+        "variables",           // Theme       Custom Variables
+        "bootstrap/bootstrap", // Bootstrap   Styles Core
+        "wordpress/wordpress", // WordPress   Styles Core
+        //"woocommerce",       // WooCommerce Styles Core
+        "odin/core",           // Odin        Styles Core
+        "layout"               // Theme       Custom Layout
+;
+
+.barra-menu, .menu-top{
+	background: transparent;
+	border-color: transparent; 
+}
+.navbar-default{
+	.navbar-nav{
+		li{
+			text-transform: uppercase;
+ 			margin-right: 45px;
+	    width: 120px;
+			a{
+				color: #fff;
+				border-bottom: 2px solid #fff;
+   			padding-bottom: 5px;
+   			padding-left: 0px;
+   			font-family: AkkuratProBd;
+   			&:hover{
+   				color: rgba(255, 255, 255, 0.5);
+   				border-bottom-color: rgba(255, 255, 255, 0.5);
+   			}
+   			&:focus{
+   				color: rgba(255, 255, 255, 0.5);
+   				border-bottom-color: rgba(255, 255, 255, 0.5);
+   			}
+			}
+		}
+	}
+}
+.navbar-default{
+	.navbar-nav{
+		.active{
+			a{
+				background-color: transparent;
+				color: #fff;
+			}
+			a:hover{
+				background-color: transparent;
+				color: rgba(255, 255, 255, 0.5);
+			}
+			a:focus{
+				background-color: transparent;
+				color: rgba(255, 255, 255, 0.5); 
+			}
+		}	
+	}
+}

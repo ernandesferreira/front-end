@@ -6,6 +6,36 @@ Description: Odin main stylesheet.
 Author: the Odin team
 Author URI: http://wpod.in/#colaboradores
 */
+@font-face {
+  font-family: "akkbdpro";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/akkbdpro1.eot?") format("eot"), url("../fonts/akkbdpro1.woff2") format("woff2"), url("../fonts/akkbdpro1.woff") format("woff"), url("../fonts/akkbdpro1.ttf") format("truetype"), url("../fonts/akkbdpro.svg#akkbdpro") format("svg");
+}
+@font-face {
+  font-family: "akkrgpro1";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/akkrgpro1.eot?") format("eot"), url("../fonts/akkrgpro1.woff2") format("woff2"), url("../fonts/akkrgpro1.woff") format("woff"), url("../fonts/akkrgpro1.ttf") format("truetype"), url("../fonts/akkrgpro1.svg#akkrgpro1") format("svg");
+}
+@font-face {
+  font-family: "AkkuratPro";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/AkkuratPro.otf?") format("otf");
+}
+@font-face {
+  font-family: "AkkuratProBd";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/AkkuratProBd.otf?") format("otf");
+}
+@font-face {
+  font-family: "icomoon";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/icomoon.eot?") format("eot"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+}
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -10070,7 +10100,7 @@ img#wpstats {
 
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(1) {
-  font-size: 13px!important;
+  font-size: 23px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(2) {
@@ -10078,43 +10108,43 @@ img#wpstats {
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(3) {
-  font-size: 13px!important;
+  font-size: 31px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(4) {
-  font-size: 28px!important;
+  font-size: 31px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(5) {
-  font-size: 19px!important;
+  font-size: 30px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(6) {
-  font-size: 20px!important;
+  font-size: 25px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(7) {
-  font-size: 28px!important;
+  font-size: 13px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(8) {
-  font-size: 16px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(9) {
   font-size: 21px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(9) {
+  font-size: 26px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(10) {
-  font-size: 13px!important;
+  font-size: 29px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(11) {
-  font-size: 13px!important;
+  font-size: 14px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(12) {
-  font-size: 17px!important;
+  font-size: 14px!important;
 }
 
 /* line 249, ../sass/wordpress/_wordpress.scss */
@@ -10227,13 +10257,23 @@ body {
   margin-bottom: 70px;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .site-title-home {
   position: absolute;
   left: -1500px;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 #header #main-navigation {
   margin: 0 0 20px 0;
+}
+
+/* line 29, ../sass/style.scss */
+.banner, .container-banner, .container-banner > img {
+  width: 100%;
+}
+
+/* line 32, ../sass/style.scss */
+.container-banner {
+  position: absolute;
 }

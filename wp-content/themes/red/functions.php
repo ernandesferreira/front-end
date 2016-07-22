@@ -211,8 +211,9 @@ function odin_enqueue_scripts() {
 	// Loads Odin main stylesheet.
 	wp_enqueue_style( 'odin-style', get_stylesheet_uri(), array(), null, 'all' );
 
-	// Loads Odin main stylesheet.
+	//stylesheet custom.
 	wp_enqueue_style( 'odin-custom', $template_url."/assets/stylesheets/style.css", array(), null, 'all' );
+	wp_enqueue_style( 'odin-menu', $template_url."/assets/stylesheets/menu.css", array(), null, 'all' );
 
 	// jQuery.
 	wp_enqueue_script( 'jquery' );
