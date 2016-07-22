@@ -3,13 +3,13 @@
   font-family: "akkbdpro";
   font-style: italic;
   font-weight: bold;
-  src: url("../fonts/akkbdpro1.eot?") format("eot"), url("../fonts/akkbdpro1.woff2") format("woff2"), url("../fonts/akkbdpro1.woff") format("woff"), url("../fonts/akkbdpro1.ttf") format("truetype"), url("../fonts/akkbdpro.svg#akkbdpro") format("svg");
+  src: url("../fonts/akkbdpro1.ttf") format("truetype");
 }
 @font-face {
   font-family: "akkrgpro1";
   font-style: italic;
   font-weight: bold;
-  src: url("../fonts/akkrgpro1.eot?") format("eot"), url("../fonts/akkrgpro1.woff2") format("woff2"), url("../fonts/akkrgpro1.woff") format("woff"), url("../fonts/akkrgpro1.ttf") format("truetype"), url("../fonts/akkrgpro1.svg#akkrgpro1") format("svg");
+  src: url("../fonts/akkrgpro1.ttf") format("truetype");
 }
 @font-face {
   font-family: "AkkuratPro";
@@ -27,7 +27,7 @@
   font-family: "icomoon";
   font-style: italic;
   font-weight: bold;
-  src: url("../fonts/icomoon.eot?") format("eot"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  src: url("../fonts/icomoon.ttf") format("truetype");
 }
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -10093,11 +10093,11 @@ img#wpstats {
 
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(1) {
-  font-size: 17px!important;
+  font-size: 19px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(2) {
-  font-size: 32px!important;
+  font-size: 21px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(3) {
@@ -10105,39 +10105,39 @@ img#wpstats {
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(4) {
-  font-size: 28px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(5) {
-  font-size: 22px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(6) {
-  font-size: 14px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(7) {
-  font-size: 28px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(8) {
-  font-size: 27px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(9) {
-  font-size: 24px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(10) {
   font-size: 17px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(5) {
+  font-size: 25px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(6) {
+  font-size: 16px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(7) {
+  font-size: 22px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(8) {
+  font-size: 25px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(9) {
+  font-size: 29px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(10) {
+  font-size: 23px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(11) {
-  font-size: 20px!important;
+  font-size: 18px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(12) {
-  font-size: 13px!important;
+  font-size: 21px!important;
 }
 
 /* line 249, ../sass/wordpress/_wordpress.scss */
@@ -10248,6 +10248,7 @@ html {
 /* line 131, ../sass/_layout.scss */
 body {
   margin-bottom: 70px;
+  font-family: "akkrgpro1";
 }
 
 /* line 10, ../sass/menu.scss */
@@ -10259,40 +10260,90 @@ body {
 /* line 16, ../sass/menu.scss */
 .navbar-default .navbar-nav li {
   text-transform: uppercase;
-  margin-right: 45px;
-  width: 120px;
+  margin-right: 28px;
+  width: 110px;
+  font-size: 12px;
 }
-/* line 20, ../sass/menu.scss */
+/* line 21, ../sass/menu.scss */
 .navbar-default .navbar-nav li a {
   color: #fff;
-  border-bottom: 2px solid #fff;
+  border-bottom: 3px solid #fff;
   padding-bottom: 5px;
   padding-left: 0px;
-  font-family: AkkuratProBd;
+  font-family: "akkrgpro1";
 }
-/* line 26, ../sass/menu.scss */
+/* line 27, ../sass/menu.scss */
 .navbar-default .navbar-nav li a:hover {
-  color: rgba(255, 255, 255, 0.5);
-  border-bottom-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
+  border-bottom-color: rgba(255, 255, 255, 0.6);
 }
-/* line 30, ../sass/menu.scss */
+/* line 31, ../sass/menu.scss */
 .navbar-default .navbar-nav li a:focus {
   color: rgba(255, 255, 255, 0.5);
-  border-bottom-color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.6);
+}
+/* line 36, ../sass/menu.scss */
+.navbar-default .navbar-nav li:last-child {
+  margin-right: 0px;
 }
 
-/* line 41, ../sass/menu.scss */
+/* line 45, ../sass/menu.scss */
 .navbar-default .navbar-nav .active a {
   background-color: transparent;
   color: #fff;
 }
-/* line 45, ../sass/menu.scss */
+/* line 49, ../sass/menu.scss */
 .navbar-default .navbar-nav .active a:hover {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
-/* line 49, ../sass/menu.scss */
+/* line 53, ../sass/menu.scss */
 .navbar-default .navbar-nav .active a:focus {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 60, ../sass/menu.scss */
+.menu-topo {
+  height: 157px;
+  margin-top: 30px;
+}
+
+/* line 64, ../sass/menu.scss */
+.rede-social {
+  float: right;
+}
+/* line 66, ../sass/menu.scss */
+.rede-social ul {
+  list-style: none;
+}
+/* line 68, ../sass/menu.scss */
+.rede-social ul li {
+  border: 2px solid #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+/* line 74, ../sass/menu.scss */
+.rede-social ul li:hover {
+  background: rgba(255, 255, 255, 0.53);
+}
+/* line 77, ../sass/menu.scss */
+.rede-social ul li a {
+  top: 10%;
+  margin-top: -15px;
+  position: relative;
+}
+/* line 82, ../sass/menu.scss */
+.rede-social ul li a.language {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "akkbdpro";
+  font-size: 12px;
+  top: 18%;
+}
+/* line 89, ../sass/menu.scss */
+.rede-social ul li:last-child {
+  margin-right: 0px;
 }

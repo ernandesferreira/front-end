@@ -26,6 +26,9 @@ Author URI: http://wpod.in/#colaboradores
 #header #main-navigation{
 	margin: 0 0 20px 0;
 }
+.banner{
+
+}
 .banner, .container-banner, .container-banner>img{
 	width: 100%;
 }
@@ -34,4 +37,84 @@ Author URI: http://wpod.in/#colaboradores
 }
 .container-banner img{
 
+}
+.title-banner{
+	margin-top: 130px;
+	h2{
+		font-size: 41px;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "akkbdpro";
+	}
+	h3{
+		font-size: 16px;
+		color: #fff;
+		width: 435px;
+		margin-top: 0;
+	}
+}
+.col-red-number{
+	border-bottom: 2px solid rgba(255, 255, 255, 0.7)
+}
+.red-number{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-top: 130px;
+    padding-bottom: 2px;
+}
+.content-number{
+	text-align: center;
+	margin: 40px 0px;
+	border-right: 1px solid #fff;
+	span{
+		font-size: 45px;
+		font-family: "akkbdpro";
+		color: #fff;
+		font-style: bold;
+	}
+	.description-numbers{
+		text-transform: uppercase;
+		color: #fff;
+		/* width: 157px; */
+		text-align: center;
+	    padding: 0 49px;
+	    font-family: "akkbdpro";
+		span{
+			font-size: 14px;
+		}
+	}
+}
+.last-number{
+	border-right: none;
+}
+.line-news{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b81e24+50,d04a37+50 */
+	background: #b81e24; /* Old browsers */
+	background: -moz-linear-gradient(left,  #b81e24 50%, #d04a37 50%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #b81e24 50%,#d04a37 50%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #b81e24 50%,#d04a37 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b81e24', endColorstr='#d04a37',GradientType=1 ); /* IE6-9 */
+	/* IE6-9 */
+
+}
+.red-destaque, .red-news{
+	padding: 15px 0px;
+	h2{
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #fff;
+		margin: 0;
+	    margin-top: 2px;
+	}
+}
+.red-more{
+	padding: 15px 0px;
+	span{
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #782819;
+		margin: 0;
+	    margin-top: 2px;
+	}
 }

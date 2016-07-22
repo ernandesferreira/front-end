@@ -78,19 +78,41 @@
 					</a>
 				</div>
 				<nav class="collapse navbar-collapse navbar-main-navigation barra-menu" role="navigation">
-					<?php
-						wp_nav_menu(
-							array(
-								'theme_location' => 'main-menu',
-								'depth'          => 2,
-								'container'      => false,
-								'menu_class'     => 'nav navbar-nav',
-								'fallback_cb'    => 'Odin_Bootstrap_Nav_Walker::fallback',
-								'walker'         => new Odin_Bootstrap_Nav_Walker()
-							)
-						);
-					?>
+					<div class="col-md-3 logo-topo">
+						<img src="<?php echo get_template_directory_uri().'/assets/images/logo.svg'; ?>">
+					</div>
+					<div class="col-md-9 menu-topo">
+					<div class="rede-social">
+						<ul class="list-inline">
+							<li>
+								<a href="#" alt="Busca" title="Busca"> <img src="<?php echo get_template_directory_uri().'/assets/images/lupa.png'; ?>"> </a>
+ 							</li>
+							<li>
+								<a href="#" alt="Facebook" title="Facebook"> <img src="<?php echo get_template_directory_uri().'/assets/images/face.png'; ?>"> </a>
+ 							</li>
+ 							<li>
+								<a href="#" alt="Linkedin" title="Linkedin"> <img src="<?php echo get_template_directory_uri().'/assets/images/linkedin.png'; ?>"> </a>
+ 							</li>
+ 							<li>
+								<a href="#" class="language" alt="Idioma" title="Idioma"> en </a>
+ 							</li>
+						</ul>
+					</div>
+						<?php
+							wp_nav_menu(
+								array(
+									'theme_location' => 'main-menu',
+									'depth'          => 2,
+									'container'      => false,
+									'menu_class'     => 'nav navbar-nav',
+									'fallback_cb'    => 'Odin_Bootstrap_Nav_Walker::fallback',
+									'walker'         => new Odin_Bootstrap_Nav_Walker()
+								)
+							);
+						?>
+					</div>
 				</nav><!-- .navbar-collapse -->
+
 			</div><!-- #main-navigation-->
 
 		</div><!-- .container-->

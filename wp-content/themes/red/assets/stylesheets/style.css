@@ -10,13 +10,13 @@ Author URI: http://wpod.in/#colaboradores
   font-family: "akkbdpro";
   font-style: italic;
   font-weight: bold;
-  src: url("../fonts/akkbdpro1.eot?") format("eot"), url("../fonts/akkbdpro1.woff2") format("woff2"), url("../fonts/akkbdpro1.woff") format("woff"), url("../fonts/akkbdpro1.ttf") format("truetype"), url("../fonts/akkbdpro.svg#akkbdpro") format("svg");
+  src: url("../fonts/akkbdpro1.ttf") format("truetype");
 }
 @font-face {
   font-family: "akkrgpro1";
   font-style: italic;
   font-weight: bold;
-  src: url("../fonts/akkrgpro1.eot?") format("eot"), url("../fonts/akkrgpro1.woff2") format("woff2"), url("../fonts/akkrgpro1.woff") format("woff"), url("../fonts/akkrgpro1.ttf") format("truetype"), url("../fonts/akkrgpro1.svg#akkrgpro1") format("svg");
+  src: url("../fonts/akkrgpro1.ttf") format("truetype");
 }
 @font-face {
   font-family: "AkkuratPro";
@@ -34,7 +34,7 @@ Author URI: http://wpod.in/#colaboradores
   font-family: "icomoon";
   font-style: italic;
   font-weight: bold;
-  src: url("../fonts/icomoon.eot?") format("eot"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  src: url("../fonts/icomoon.ttf") format("truetype");
 }
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -10100,51 +10100,51 @@ img#wpstats {
 
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(1) {
-  font-size: 23px!important;
+  font-size: 22px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(2) {
-  font-size: 20px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(3) {
-  font-size: 31px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(4) {
-  font-size: 31px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(5) {
-  font-size: 30px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(6) {
-  font-size: 25px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(7) {
   font-size: 13px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(8) {
+.widget_tag_cloud a:nth-child(3) {
+  font-size: 22px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(4) {
   font-size: 21px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(5) {
+  font-size: 15px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(6) {
+  font-size: 31px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(7) {
+  font-size: 24px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(8) {
+  font-size: 31px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(9) {
-  font-size: 26px!important;
+  font-size: 28px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(10) {
-  font-size: 29px!important;
+  font-size: 24px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(11) {
-  font-size: 14px!important;
+  font-size: 29px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(12) {
-  font-size: 14px!important;
+  font-size: 20px!important;
 }
 
 /* line 249, ../sass/wordpress/_wordpress.scss */
@@ -10255,6 +10255,7 @@ html {
 /* line 131, ../sass/_layout.scss */
 body {
   margin-bottom: 70px;
+  font-family: "akkrgpro1";
 }
 
 /* line 22, ../sass/style.scss */
@@ -10268,12 +10269,119 @@ body {
   margin: 0 0 20px 0;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .banner, .container-banner, .container-banner > img {
   width: 100%;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .container-banner {
   position: absolute;
+}
+
+/* line 41, ../sass/style.scss */
+.title-banner {
+  margin-top: 130px;
+}
+/* line 43, ../sass/style.scss */
+.title-banner h2 {
+  font-size: 41px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "akkbdpro";
+}
+/* line 49, ../sass/style.scss */
+.title-banner h3 {
+  font-size: 16px;
+  color: #fff;
+  width: 435px;
+  margin-top: 0;
+}
+
+/* line 56, ../sass/style.scss */
+.col-red-number {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+/* line 59, ../sass/style.scss */
+.red-number {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 130px;
+  padding-bottom: 2px;
+}
+
+/* line 66, ../sass/style.scss */
+.content-number {
+  text-align: center;
+  margin: 40px 0px;
+  border-right: 1px solid #fff;
+}
+/* line 70, ../sass/style.scss */
+.content-number span {
+  font-size: 45px;
+  font-family: "akkbdpro";
+  color: #fff;
+  font-style: bold;
+}
+/* line 76, ../sass/style.scss */
+.content-number .description-numbers {
+  text-transform: uppercase;
+  color: #fff;
+  /* width: 157px; */
+  text-align: center;
+  padding: 0 49px;
+  font-family: "akkbdpro";
+}
+/* line 83, ../sass/style.scss */
+.content-number .description-numbers span {
+  font-size: 14px;
+}
+
+/* line 88, ../sass/style.scss */
+.last-number {
+  border-right: none;
+}
+
+/* line 91, ../sass/style.scss */
+.line-news {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b81e24+50,d04a37+50 */
+  background: #b81e24;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #b81e24 50%, #d04a37 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #b81e24 50%, #d04a37 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #b81e24 50%, #d04a37 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b81e24', endColorstr='#d04a37',GradientType=1 );
+  /* IE6-9 */
+  /* IE6-9 */
+}
+
+/* line 101, ../sass/style.scss */
+.red-destaque, .red-news {
+  padding: 15px 0px;
+}
+/* line 103, ../sass/style.scss */
+.red-destaque h2, .red-news h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  margin-top: 2px;
+}
+
+/* line 111, ../sass/style.scss */
+.red-more {
+  padding: 15px 0px;
+}
+/* line 113, ../sass/style.scss */
+.red-more span {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #782819;
+  margin: 0;
+  margin-top: 2px;
 }

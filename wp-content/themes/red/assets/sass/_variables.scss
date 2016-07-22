@@ -12,22 +12,15 @@
     font-family: "akkbdpro";
     font-style: italic;
     font-weight: bold;
-    src: url("../fonts/akkbdpro1.eot?") format("eot"),
-         url("../fonts/akkbdpro1.woff2") format("woff2"),
-         url("../fonts/akkbdpro1.woff") format("woff"),
-         url("../fonts/akkbdpro1.ttf") format("truetype"),
-         url("../fonts/akkbdpro.svg#akkbdpro") format("svg");
+    src: url("../fonts/akkbdpro1.ttf") format("truetype");
+   
 }
 
 @font-face { 
     font-family: "akkrgpro1";
     font-style: italic;
     font-weight: bold;
-    src: url("../fonts/akkrgpro1.eot?") format("eot"),
-         url("../fonts/akkrgpro1.woff2") format("woff2"),
-         url("../fonts/akkrgpro1.woff") format("woff"),
-         url("../fonts/akkrgpro1.ttf") format("truetype"),
-         url("../fonts/akkrgpro1.svg#akkrgpro1") format("svg");
+    src: url("../fonts/akkrgpro1.ttf") format("truetype");
 }
 
 @font-face { 
@@ -48,10 +41,7 @@
     font-family: "icomoon";
     font-style: italic;
     font-weight: bold;
-    src: url("../fonts/icomoon.eot?") format("eot"),
-         url("../fonts/icomoon.woff") format("woff"),
-         url("../fonts/icomoon.ttf") format("truetype"),
-         url("../fonts/icomoon.svg#icomoon") format("svg");
+    src: url("../fonts/icomoon.ttf") format("truetype"),
 }
 
 
