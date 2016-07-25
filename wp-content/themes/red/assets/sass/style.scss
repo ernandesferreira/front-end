@@ -98,8 +98,14 @@ Author URI: http://wpod.in/#colaboradores
 	/* IE6-9 */
 
 }
+.red-destaque{
+	padding-left: 45px;
+}
+.red-news{
+	padding-left: 35px;
+}
 .red-destaque, .red-news{
-	padding: 15px 0px;
+	padding-top: 18px;
 	h2{
 		font-size: 12px;
 		text-transform: uppercase;
@@ -110,11 +116,225 @@ Author URI: http://wpod.in/#colaboradores
 }
 .red-more{
 	padding: 15px 0px;
-	span{
+	a{
 		font-size: 12px;
 		text-transform: uppercase;
 		color: #782819;
 		margin: 0;
 	    margin-top: 2px;
+	    &:hover{
+	    	color: #782819;
+	    }
 	}
+}
+.container-destaque{
+  padding: 30px;
+  padding-top: 80px;
+  font-family: "akkbdpro";
+  .box-destaque{
+  	padding: 15px;
+	  .img-destaque{
+	  	margin-bottom: 42px;
+	  	img{
+	  		-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+
+	  	}
+	  }
+	  .content-news-destaque{
+	  	.date-destaque{
+
+	  	}
+	  	.title-destaque{
+	  		h3{
+	  			 text-transform: uppercase;
+		    	 font-size: 20px;
+	  			a{
+	  				color: #544a51;
+			    	text-decoration: none;
+			    	&:hover{
+			    		color: #b8242a;
+			    	}
+	  			}
+	  		}
+	  	}
+	  	.description-news-destaque{
+	  		p{
+	  			color: #929396;
+	  			font-family: "akkrgpro1";
+	  		}
+	  	}
+	  }
+	  &:hover{
+	  	background-color: #f1f2f2;
+	  	.img-destaque{
+		  	img{
+		  		-webkit-filter: grayscale(0%);
+	    		filter: grayscale(0%);
+		  	}
+	 		}
+	  	.title-destaque{
+	  		h3{
+	  			a{
+	  				color: #b8242a;
+	  			}
+	  		}
+	  	}
+	  }
+  }
+  
+}
+.collun-news-all{
+	background-color: #fafafb;
+}
+.content-news-all{
+	padding: 30px;
+	padding-top: 75px;
+}
+.box-content-all{
+	ul{
+		list-style: none;
+		padding: 10px;
+		li{
+			padding-bottom: 51px;
+			.date-news-all{
+			    font-family: "akkbdpro";
+			}
+			.title-news-all{
+				h3{
+				    text-transform: uppercase;
+		    		font-size: 20px;
+				    font-family: "akkbdpro";
+				    a{
+				    	color: #544a51;
+				    	text-decoration: none;
+				    	 &:hover{
+						  	color: #b8242a;
+						  }  
+				    }
+				}
+			}
+			.description-news-all{
+				p{
+					color: #929396;
+			    margin-bottom: 51px;
+				}
+			}
+			&:after{
+				content: '';
+				width: 27px;
+				height: 4px;
+				background-color: #b8242a;
+				position: absolute;
+			}
+			&:last-child{
+				&:after{
+					content: '';
+					width: 0;
+					height: 0;
+					position: absolute;
+				}
+				.description-news-all{
+					p{
+				    margin-bottom: 0px;
+					}
+				}
+			    padding-bottom: 0;
+			}
+		}
+		&:hover{
+			background: #f1f2f2;
+		}
+ 	}
+}
+
+// footer
+.footer-home{
+	background-color: #544a51;
+	padding-top: 65px;
+}
+.widget img.logo-footer{
+	width: 134px
+}
+.col-md-1.footer2{
+	padding-left: 0;
+	.widget_nav_menu{
+		ul#menu-menu-footer{
+			list-style: none;
+			padding-top: 40px;
+			text-align: left;
+			text-transform: uppercase;
+			font-family: "akkbdpro";
+			padding-left: 0;
+			li{
+				a{
+					color: #fff;
+					text-decoration: none;
+			    font-size: 12px;
+				}
+			}
+		}
+	}
+}
+.parceiros-footer{
+	padding-top: 24px;
+	h2{
+		color: #fff;
+		font-size: 12px;
+		font-family: "akkbdpro";
+    text-transform: uppercase;
+	}
+}
+.redes-sociais-footer{
+	padding-top: 24px;
+	h2{
+		color: #fff;
+		font-size: 12px;
+		font-family: "akkbdpro";
+    text-transform: uppercase;
+	}
+	.link-sociais{
+		ul{
+			li{
+				background-color: rgba(255, 255, 255, 0.5);
+				padding: 2px 4px;
+		    margin-left: 10px;
+				a{
+					img{
+					}
+				}
+			}
+		}
+	}
+}
+.sedes-footer{
+	.sedes{
+	    margin-top: 32px;
+		ul{
+			li{
+				margin-right: 18px;
+					img{
+						width: 87px;
+					}
+				.name-sede{
+					text-transform: uppercase;
+					color: #fff;
+					font-size: 12px;
+					font-family: "akkbdpro";
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+.line-footer{
+	border-top: 1px solid #c0c0c0;
+}
+.copyright{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: right;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 60px;
 }

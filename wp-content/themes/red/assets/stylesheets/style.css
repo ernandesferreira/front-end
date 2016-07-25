@@ -10100,51 +10100,51 @@ img#wpstats {
 
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(1) {
-  font-size: 22px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(2) {
   font-size: 13px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(2) {
+  font-size: 25px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(3) {
-  font-size: 22px!important;
+  font-size: 20px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(4) {
-  font-size: 21px!important;
+  font-size: 27px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(5) {
-  font-size: 15px!important;
+  font-size: 30px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(6) {
-  font-size: 31px!important;
+  font-size: 23px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(7) {
-  font-size: 24px!important;
+  font-size: 23px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(8) {
-  font-size: 31px!important;
+  font-size: 15px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(9) {
-  font-size: 28px!important;
+  font-size: 20px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(10) {
-  font-size: 24px!important;
+  font-size: 22px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(11) {
-  font-size: 29px!important;
+  font-size: 22px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(12) {
-  font-size: 20px!important;
+  font-size: 25px!important;
 }
 
 /* line 249, ../sass/wordpress/_wordpress.scss */
@@ -10242,7 +10242,7 @@ ul.page-numbers > li > span.current, ul.page-numbers > li > span.current:hover, 
   width: 100%;
   height: 50px;
   background-color: #f5f5f5;
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 /* line 125, ../sass/_layout.scss */
@@ -10254,7 +10254,7 @@ html {
 
 /* line 131, ../sass/_layout.scss */
 body {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   font-family: "akkrgpro1";
 }
 
@@ -10361,10 +10361,20 @@ body {
 }
 
 /* line 101, ../sass/style.scss */
-.red-destaque, .red-news {
-  padding: 15px 0px;
+.red-destaque {
+  padding-left: 45px;
 }
-/* line 103, ../sass/style.scss */
+
+/* line 104, ../sass/style.scss */
+.red-news {
+  padding-left: 35px;
+}
+
+/* line 107, ../sass/style.scss */
+.red-destaque, .red-news {
+  padding-top: 18px;
+}
+/* line 109, ../sass/style.scss */
 .red-destaque h2, .red-news h2 {
   font-size: 12px;
   text-transform: uppercase;
@@ -10373,15 +10383,240 @@ body {
   margin-top: 2px;
 }
 
-/* line 111, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .red-more {
   padding: 15px 0px;
 }
-/* line 113, ../sass/style.scss */
-.red-more span {
+/* line 119, ../sass/style.scss */
+.red-more a {
   font-size: 12px;
   text-transform: uppercase;
   color: #782819;
   margin: 0;
   margin-top: 2px;
+}
+/* line 125, ../sass/style.scss */
+.red-more a:hover {
+  color: #782819;
+}
+
+/* line 130, ../sass/style.scss */
+.container-destaque {
+  padding: 30px;
+  padding-top: 80px;
+  font-family: "akkbdpro";
+}
+/* line 134, ../sass/style.scss */
+.container-destaque .box-destaque {
+  padding: 15px;
+}
+/* line 136, ../sass/style.scss */
+.container-destaque .box-destaque .img-destaque {
+  margin-bottom: 42px;
+}
+/* line 138, ../sass/style.scss */
+.container-destaque .box-destaque .img-destaque img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 149, ../sass/style.scss */
+.container-destaque .box-destaque .content-news-destaque .title-destaque h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+/* line 152, ../sass/style.scss */
+.container-destaque .box-destaque .content-news-destaque .title-destaque h3 a {
+  color: #544a51;
+  text-decoration: none;
+}
+/* line 155, ../sass/style.scss */
+.container-destaque .box-destaque .content-news-destaque .title-destaque h3 a:hover {
+  color: #b8242a;
+}
+/* line 162, ../sass/style.scss */
+.container-destaque .box-destaque .content-news-destaque .description-news-destaque p {
+  color: #929396;
+  font-family: "akkrgpro1";
+}
+/* line 168, ../sass/style.scss */
+.container-destaque .box-destaque:hover {
+  background-color: #f1f2f2;
+}
+/* line 171, ../sass/style.scss */
+.container-destaque .box-destaque:hover .img-destaque img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+/* line 178, ../sass/style.scss */
+.container-destaque .box-destaque:hover .title-destaque h3 a {
+  color: #b8242a;
+}
+
+/* line 187, ../sass/style.scss */
+.collun-news-all {
+  background-color: #fafafb;
+}
+
+/* line 190, ../sass/style.scss */
+.content-news-all {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+/* line 195, ../sass/style.scss */
+.box-content-all ul {
+  list-style: none;
+  padding: 10px;
+}
+/* line 198, ../sass/style.scss */
+.box-content-all ul li {
+  padding-bottom: 51px;
+}
+/* line 200, ../sass/style.scss */
+.box-content-all ul li .date-news-all {
+  font-family: "akkbdpro";
+}
+/* line 204, ../sass/style.scss */
+.box-content-all ul li .title-news-all h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "akkbdpro";
+}
+/* line 208, ../sass/style.scss */
+.box-content-all ul li .title-news-all h3 a {
+  color: #544a51;
+  text-decoration: none;
+}
+/* line 211, ../sass/style.scss */
+.box-content-all ul li .title-news-all h3 a:hover {
+  color: #b8242a;
+}
+/* line 218, ../sass/style.scss */
+.box-content-all ul li .description-news-all p {
+  color: #929396;
+  margin-bottom: 51px;
+}
+/* line 223, ../sass/style.scss */
+.box-content-all ul li:after {
+  content: '';
+  width: 27px;
+  height: 4px;
+  background-color: #b8242a;
+  position: absolute;
+}
+/* line 230, ../sass/style.scss */
+.box-content-all ul li:last-child {
+  padding-bottom: 0;
+}
+/* line 231, ../sass/style.scss */
+.box-content-all ul li:last-child:after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+/* line 238, ../sass/style.scss */
+.box-content-all ul li:last-child .description-news-all p {
+  margin-bottom: 0px;
+}
+/* line 245, ../sass/style.scss */
+.box-content-all ul:hover {
+  background: #f1f2f2;
+}
+
+/* line 252, ../sass/style.scss */
+.footer-home {
+  background-color: #544a51;
+  padding-top: 65px;
+}
+
+/* line 256, ../sass/style.scss */
+.widget img.logo-footer {
+  width: 134px;
+}
+
+/* line 259, ../sass/style.scss */
+.col-md-1.footer2 {
+  padding-left: 0;
+}
+/* line 262, ../sass/style.scss */
+.col-md-1.footer2 .widget_nav_menu ul#menu-menu-footer {
+  list-style: none;
+  padding-top: 40px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "akkbdpro";
+  padding-left: 0;
+}
+/* line 270, ../sass/style.scss */
+.col-md-1.footer2 .widget_nav_menu ul#menu-menu-footer li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* line 279, ../sass/style.scss */
+.parceiros-footer {
+  padding-top: 24px;
+}
+/* line 281, ../sass/style.scss */
+.parceiros-footer h2 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "akkbdpro";
+  text-transform: uppercase;
+}
+
+/* line 288, ../sass/style.scss */
+.redes-sociais-footer {
+  padding-top: 24px;
+}
+/* line 290, ../sass/style.scss */
+.redes-sociais-footer h2 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "akkbdpro";
+  text-transform: uppercase;
+}
+/* line 298, ../sass/style.scss */
+.redes-sociais-footer .link-sociais ul li {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2px 4px;
+  margin-left: 10px;
+}
+
+/* line 311, ../sass/style.scss */
+.sedes-footer .sedes {
+  margin-top: 32px;
+}
+/* line 314, ../sass/style.scss */
+.sedes-footer .sedes ul li {
+  margin-right: 18px;
+}
+/* line 316, ../sass/style.scss */
+.sedes-footer .sedes ul li img {
+  width: 87px;
+}
+/* line 319, ../sass/style.scss */
+.sedes-footer .sedes ul li .name-sede {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-family: "akkbdpro";
+  margin-top: 15px;
+}
+
+/* line 330, ../sass/style.scss */
+.line-footer {
+  border-top: 1px solid #c0c0c0;
+}
+
+/* line 333, ../sass/style.scss */
+.copyright {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 60px;
 }
