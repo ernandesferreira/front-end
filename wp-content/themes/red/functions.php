@@ -218,6 +218,9 @@ function odin_enqueue_scripts() {
 	// jQuery.
 	wp_enqueue_script( 'jquery' );
 
+	// Main jQuery.
+		wp_enqueue_script( 'odin-main', $template_url . '/assets/js/main.js', array(), null, true );
+
 	// General scripts.
 	if ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) {
 		// Bootstrap.
@@ -307,3 +310,14 @@ if ( is_woocommerce_activated() ) {
 	require get_template_directory() . '/inc/woocommerce/functions.php';
 	require get_template_directory() . '/inc/woocommerce/template-tags.php';
 }
+//Mudar o nome do Options
+function my_acf_options_page_settings($settings){
+    //Nome da aba principal que por default é OPTIONS
+    $settings['title'] = 'Opções do Site';
+
+    //Nome das subs-categorias / sub-paginas criadas
+    $settings['pages'] = array('Banner', 'Red Números', 'Parceiros globais', 'Redes Sociais');
+    
+    return $settings;
+}
+add_filter('acf/options_page/settings','my_acf_options_page_settings');

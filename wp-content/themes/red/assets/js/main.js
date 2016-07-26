@@ -18,4 +18,10 @@ jQuery(document).ready(function($) {
 	// Tooltip.
 	$( '.odin-tooltip' ).tooltip();
 
+
+
+// Exibo o modal
+$("#meumodal").modal("show");
+
+
 });

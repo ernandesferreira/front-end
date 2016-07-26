@@ -10093,19 +10093,19 @@ img#wpstats {
 
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(1) {
-  font-size: 26px!important;
+  font-size: 14px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(2) {
-  font-size: 27px!important;
+  font-size: 20px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(3) {
-  font-size: 27px!important;
+  font-size: 16px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(4) {
-  font-size: 17px!important;
+  font-size: 19px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(5) {
@@ -10113,31 +10113,31 @@ img#wpstats {
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(6) {
-  font-size: 18px!important;
+  font-size: 19px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(7) {
-  font-size: 16px!important;
+  font-size: 25px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(8) {
-  font-size: 27px!important;
+  font-size: 22px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(9) {
-  font-size: 27px!important;
+  font-size: 16px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(10) {
-  font-size: 29px!important;
+  font-size: 25px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(11) {
-  font-size: 15px!important;
+  font-size: 19px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(12) {
-  font-size: 19px!important;
+  font-size: 30px!important;
 }
 
 /* line 249, ../sass/wordpress/_wordpress.scss */
@@ -10251,20 +10251,43 @@ body {
   font-family: "akkrgpro1";
 }
 
-/* line 10, ../sass/menu.scss */
+/* line 11, ../sass/menu.scss */
+.modal-content {
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+/* line 15, ../sass/menu.scss */
+.modal-header {
+  text-transform: uppercase;
+  color: #b81e24;
+  font-family: "akkbdpro";
+  padding-bottom: 30px;
+}
+
+/* line 21, ../sass/menu.scss */
+.modal-body {
+  padding: 5px 15px;
+}
+/* line 23, ../sass/menu.scss */
+.modal-body p {
+  color: #b81e24;
+}
+
+/* line 31, ../sass/menu.scss */
 .barra-menu, .menu-top {
   background: transparent;
   border-color: transparent;
 }
 
-/* line 16, ../sass/menu.scss */
+/* line 37, ../sass/menu.scss */
 .navbar-default .navbar-nav li {
   text-transform: uppercase;
   margin-right: 28px;
   width: 110px;
   font-size: 12px;
 }
-/* line 21, ../sass/menu.scss */
+/* line 42, ../sass/menu.scss */
 .navbar-default .navbar-nav li a {
   color: #fff;
   border-bottom: 3px solid #fff;
@@ -10272,52 +10295,52 @@ body {
   padding-left: 0px;
   font-family: "akkrgpro1";
 }
-/* line 27, ../sass/menu.scss */
+/* line 48, ../sass/menu.scss */
 .navbar-default .navbar-nav li a:hover {
   color: rgba(255, 255, 255, 0.6);
   border-bottom-color: rgba(255, 255, 255, 0.6);
 }
-/* line 31, ../sass/menu.scss */
+/* line 52, ../sass/menu.scss */
 .navbar-default .navbar-nav li a:focus {
   color: rgba(255, 255, 255, 0.5);
   border-bottom-color: rgba(255, 255, 255, 0.6);
 }
-/* line 36, ../sass/menu.scss */
+/* line 57, ../sass/menu.scss */
 .navbar-default .navbar-nav li:last-child {
   margin-right: 0px;
 }
 
-/* line 45, ../sass/menu.scss */
+/* line 66, ../sass/menu.scss */
 .navbar-default .navbar-nav .active a {
   background-color: transparent;
   color: #fff;
 }
-/* line 49, ../sass/menu.scss */
+/* line 70, ../sass/menu.scss */
 .navbar-default .navbar-nav .active a:hover {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
-/* line 53, ../sass/menu.scss */
+/* line 74, ../sass/menu.scss */
 .navbar-default .navbar-nav .active a:focus {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 60, ../sass/menu.scss */
+/* line 81, ../sass/menu.scss */
 .menu-topo {
   height: 157px;
   margin-top: 30px;
 }
 
-/* line 64, ../sass/menu.scss */
+/* line 85, ../sass/menu.scss */
 .rede-social {
   float: right;
 }
-/* line 66, ../sass/menu.scss */
+/* line 87, ../sass/menu.scss */
 .rede-social ul {
   list-style: none;
 }
-/* line 68, ../sass/menu.scss */
+/* line 89, ../sass/menu.scss */
 .rede-social ul li {
   border: 2px solid #fff;
   width: 30px;
@@ -10325,17 +10348,17 @@ body {
   text-align: center;
   margin-right: 20px;
 }
-/* line 74, ../sass/menu.scss */
+/* line 95, ../sass/menu.scss */
 .rede-social ul li:hover {
   background: rgba(255, 255, 255, 0.53);
 }
-/* line 77, ../sass/menu.scss */
+/* line 98, ../sass/menu.scss */
 .rede-social ul li a {
   top: 10%;
   margin-top: -15px;
   position: relative;
 }
-/* line 82, ../sass/menu.scss */
+/* line 103, ../sass/menu.scss */
 .rede-social ul li a.language {
   text-transform: uppercase;
   color: #fff;
@@ -10343,7 +10366,192 @@ body {
   font-size: 12px;
   top: 18%;
 }
-/* line 89, ../sass/menu.scss */
+/* line 110, ../sass/menu.scss */
 .rede-social ul li:last-child {
   margin-right: 0px;
+}
+
+/* line 116, ../sass/menu.scss */
+.wpcf7-submit {
+  width: 100%;
+}
+
+/* line 119, ../sass/menu.scss */
+.close {
+  opacity: 1;
+}
+/* line 121, ../sass/menu.scss */
+.close span {
+  color: #b81e24;
+}
+
+/* line 125, ../sass/menu.scss */
+.close:hover {
+  background-color: transparent;
+}
+
+/* line 129, ../sass/menu.scss */
+.btn-default, input[type="submit"],
+input[type="reset"],
+button, input[type="submit"], input[type="reset"], button {
+  color: #fff;
+  background-color: #b81e24;
+  border-color: transparent;
+}
+
+/* line 135, ../sass/menu.scss */
+.btn-default:hover, input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+  color: #fff;
+  background-color: #b81e24;
+  border-color: transparent;
+}
+
+/* line 142, ../sass/menu.scss */
+.navbar-nav > li > .dropdown-menu {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* line 148, ../sass/menu.scss */
+.caret {
+  display: none;
+}
+
+/* line 152, ../sass/menu.scss */
+.navbar-default .navbar-nav li:hover .dropdown-menu {
+  display: block !important;
+}
+
+/* line 156, ../sass/menu.scss */
+.navbar-default .navbar-toggle {
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  /* line 163, ../sass/menu.scss */
+  .logo-header {
+    float: left;
+  }
+  /* line 165, ../sass/menu.scss */
+  .logo-header img {
+    width: 49px;
+  }
+
+  /* line 169, ../sass/menu.scss */
+  .nav > li {
+    display: inline-block;
+  }
+
+  /* line 172, ../sass/menu.scss */
+  .navbar-default .navbar-nav li {
+    float: left;
+  }
+
+  /* line 175, ../sass/menu.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+
+  /* line 178, ../sass/menu.scss */
+  .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 0px;
+  }
+
+  /* line 181, ../sass/menu.scss */
+  .navbar-brand .visible-xs-block {
+    display: none !important;
+  }
+
+  /* line 184, ../sass/menu.scss */
+  .navbar-nav .open .dropdown-menu {
+    position: relative;
+  }
+
+  /* line 187, ../sass/menu.scss */
+  .dropdown-menu {
+    position: relative;
+  }
+
+  /* line 190, ../sass/menu.scss */
+  .banner, .container-banner, .container-banner > img {
+    width: auto;
+  }
+
+  /* line 193, ../sass/menu.scss */
+  .title-banner {
+    margin-top: 0;
+  }
+
+  /* line 196, ../sass/menu.scss */
+  .red-number {
+    margin-top: 0;
+  }
+
+  /* line 199, ../sass/menu.scss */
+  .content-number {
+    margin-bottom: 0;
+    float: left;
+  }
+
+  /* line 203, ../sass/menu.scss */
+  .last-number {
+    border-right: 1px solid #fff;
+  }
+
+  /* line 206, ../sass/menu.scss */
+  .content-number span {
+    font-size: 20px;
+  }
+
+  /* line 209, ../sass/menu.scss */
+  .content-number .description-numbers {
+    padding: 0 15px;
+  }
+  /* line 211, ../sass/menu.scss */
+  .content-number .description-numbers span {
+    font-size: 12px;
+  }
+
+  /* line 215, ../sass/menu.scss */
+  .line-news {
+    margin-top: 95px;
+  }
+}
+/* line 219, ../sass/menu.scss */
+.container-destaque .box-destaque .content-news-destaque .title-destaque h3 {
+  font-size: 14px;
+}
+
+/* line 222, ../sass/menu.scss */
+.container-destaque {
+  padding-top: 40px;
+}
+
+/* line 225, ../sass/menu.scss */
+.content-news-all {
+  padding-top: 55px;
+}
+
+/* line 228, ../sass/menu.scss */
+.description-news-destaque p {
+  font-size: 12px;
+}
+
+/* line 231, ../sass/menu.scss */
+.box-content-all ul li .title-news-all h3 {
+  font-size: 14px;
+}
+
+/* line 236, ../sass/menu.scss */
+.box-content-all ul li {
+  padding-bottom: 25px;
+}
+/* line 239, ../sass/menu.scss */
+.box-content-all ul li .description-news-all p {
+  margin-bottom: 15px;
+  font-size: 12px;
 }

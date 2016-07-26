@@ -24,6 +24,28 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+
+
+<div id="meumodal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Receba E-mails com novidades</h4>
+      </div>
+      <div class="modal-body">
+      <p> Para se cadastrar, preencha os campos abaixo: </p>
+        <div class="form-modal">
+        	<?php echo do_shortcode( '[contact-form-7 id="33" title="Formulário de contato 1"]' ); ?>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
 	<a id="skippy" class="sr-only sr-only-focusable" href="#content">
 		<div class="container">
 			<span class="skiplink-text"><?php _e( 'Skip to content', 'odin' ); ?></span>
@@ -33,7 +55,18 @@
 	<header id="header" role="banner">
 	<div class="banner">
 	<div class="container-banner">
-		<img src="<?php echo get_template_directory_uri()."/assets/images/banner1.jpg"; ?>">
+		<?php
+
+			$id_banner = get_field('imagem_banner', 'option');
+			$image_banner = wp_get_attachment_image_src($id_banner, $size = 'full');
+			$alt = get_post_meta($id_banner, '_wp_attachment_image_alt', true);
+			if ($image_banner) {	
+
+			echo 	'<img class="img-responsive" src="'.$image_banner[0].'" alt="'.$alt.'">';	
+		?>
+		<?php }else{ ?>
+			<img class="img-responsive" src="<?php echo get_template_directory_uri().'/assets/images/banner1.jpg'; ?>">
+		<?php } ?>
 	</div>
 		<div class="container">
 			<div class="page-header hidden-xs site-title-home">
@@ -67,31 +100,35 @@
 
 			<div id="main-navigation" class="navbar navbar-default menu-top">
 				<div class="navbar-header">
+					<div class="logo-header hidden-md hidden-lg visible-xs-*">
+						<img src="<?php echo get_template_directory_uri().'/assets/images/logo.svg'; ?>">
+					</div>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-navigation">
 					<span class="sr-only"><?php _e( 'Toggle navigation', 'odin' ); ?></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand visible-xs-block" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-						<?php bloginfo( 'name' ); ?>
-					</a>
 				</div>
 				<nav class="collapse navbar-collapse navbar-main-navigation barra-menu" role="navigation">
-					<div class="col-md-3 logo-topo">
+					<div class="col-md-3 logo-topo hidden-xs">
 						<img src="<?php echo get_template_directory_uri().'/assets/images/logo.svg'; ?>">
 					</div>
 					<div class="col-md-9 menu-topo">
 					<div class="rede-social">
 						<ul class="list-inline">
+						<?php
+								$facebook = get_field('facebook_link', 'option');
+								$linkedin = get_field('linkedin_link', 'option');
+							?>
 							<li>
 								<a href="#" alt="Busca" title="Busca"> <img src="<?php echo get_template_directory_uri().'/assets/images/lupa.png'; ?>"> </a>
  							</li>
 							<li>
-								<a href="#" alt="Facebook" title="Facebook"> <img src="<?php echo get_template_directory_uri().'/assets/images/face.png'; ?>"> </a>
+								<a href="<?php echo $facebook; ?>" target="_blank" alt="Facebook" title="Facebook"> <img src="<?php echo get_template_directory_uri().'/assets/images/face.png'; ?>"> </a>
  							</li>
  							<li>
-								<a href="#" alt="Linkedin" title="Linkedin"> <img src="<?php echo get_template_directory_uri().'/assets/images/linkedin.png'; ?>"> </a>
+								<a href="<?php echo $linkedin; ?>" target="_blank" alt="Linkedin" title="Linkedin"> <img src="<?php echo get_template_directory_uri().'/assets/images/linkedin.png'; ?>"> </a>
  							</li>
  							<li>
 								<a href="#" class="language" alt="Idioma" title="Idioma"> en </a>
@@ -104,7 +141,7 @@
 									'theme_location' => 'main-menu',
 									'depth'          => 2,
 									'container'      => false,
-									'menu_class'     => 'nav navbar-nav',
+									'menu_class'     => 'nav navbar-nav list-inline',
 									'fallback_cb'    => 'Odin_Bootstrap_Nav_Walker::fallback',
 									'walker'         => new Odin_Bootstrap_Nav_Walker()
 								)

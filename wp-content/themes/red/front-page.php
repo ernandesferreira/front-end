@@ -17,66 +17,144 @@ get_header(); ?>
 
 	<main id="content" class="col-md-12" tabindex="-1" role="main">
 		<div class="row">
-			<div class="col-md-3"></div>
-			<div class="col-md-9">
+			<div class="col-xs-3 col-md-3 hidden-xs"></div>
+			<div class="col-xs-9 col-md-9">
 				<div class="title-banner">
-					<h2> Dedicação e Superação </h2>
-					<h3 class="sub-title-banner"> 
-						Apresentamos aos nossos clientes soluções que permitam
-						formar equipes e estruturas de alta performance.
-					</h3>
+				<?php
+					$title_banner = get_field('titulo_banner', 'option');
+
+					if( $title_banner ){
+						echo '<h2>'.$title_banner.'</h2>';
+					}else{
+						echo '<h2> Você deve inserir o texto na Opção do Site. </h2>';
+					}
+				?>
+				<?php
+					$subtitle_banner = get_field('subtitle_banner', 'option');
+
+					if( $subtitle_banner ){
+						echo '<h3 class="sub-title-banner">'.$subtitle_banner.'</h3>';
+					}else{
+						echo '<h3 class="sub-title-banner"> 
+						Você deve inserir o texto na Opção do Site.
+					</h3>';
+					}
+				?>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12 col-red-number">
+			<div class="col-xs-12 col-md-12 col-red-number">
 				<div class="red-number">
 					Red em números
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-3" class="col-numbers">				
+			<div class="col-xs-3 col-md-3" class="col-numbers">				
 				<div class="content-number">
-					<span> 10 </span>
+				<?php
+							$quadro1 = get_field('quadro_1', 'option');
+							$quadro2 = get_field('quadro_2', 'option');
+							$quadro3 = get_field('quadro_3', 'option');
+							$quadro4 = get_field('quadro_4', 'option');
+
+							//title
+							$descricao_quadro1 = get_field('descricao-quadro1', 'option');
+							$descricao_quadro2 = get_field('descricao-quadro2', 'option');
+							$descricao_quadro3 = get_field('descricao-quadro3', 'option');
+							$descricao_quadro4 = get_field('descricao-quadro4', 'option');
+						?>
+					<span>
+						<?php
+							if($quadro1){
+								echo $quadro1;
+							}else{
+								echo '10';
+							}
+						?>
+					</span>
 					<div class="description-numbers"> 
 						<span> 
-							Dias para entrega
-							de lista de candidatos
+							<?php
+							if($descricao_quadro1){
+								echo $descricao_quadro1;
+							}else{
+								echo 'DIAS PARA ENTREGA DE LISTA DE CANDIDATOS';
+							}
+						?>
 						</span>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3" class="col-numbers">
+			<div class="col-xs-3 col-md-3" class="col-numbers">
 				<div class="content-number">
-					<span> 91% </span>
+					<span>
+						<?php
+							if($quadro2){
+								echo $quadro2;
+							}else{
+								echo '10';
+							}
+						?>
+					</span>
 					<div class="description-numbers"> 
 						<span> 
-							Dos Clientes da
-							red são recorrentes
+						<?php
+							if($descricao_quadro1){
+								echo $descricao_quadro1;
+							}else{
+								echo 'Dos Clientes da red são recorrentes';
+							}
+						?>
 						</span>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3" class="col-numbers">
+			<div class="col-xs-3 col-md-3" class="col-numbers">
 				<div class="content-number">
-					<span> 93% </span>
+					<span> 
+						<?php
+							if($quadro3){
+								echo $quadro3;
+							}else{
+								echo '10';
+							}
+						?>
+					</span>
 					<div class="description-numbers"> 
 						<span> 
-							Recrutamento ativo.
-							Vamos além das
-							redes sociais
+							<?php
+							if($descricao_quadro3){
+								echo $descricao_quadro3;
+							}else{
+								echo 'RECRUTAMENTO ATIVO. VAMOS ALÉM DAS REDES SOCIAIS';
+							}
+						?>
 						</span>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3" class="col-numbers">
+			<div class="col-xs-3 col-md-3" class="col-numbers">
 				<div class="content-number last-number">
-					<span> 95% </span>
+					<span>
+						<?php
+							if($quadro4){
+								echo $quadro4;
+							}else{
+								echo '10';
+							}
+						?>
+					</span>
 					<div class="description-numbers"> 
 						<span> 
-							De assertividade em
-							Nossas contratações
+						<?php
+							if($descricao_quadro4){
+								echo $descricao_quadro4;
+							}else{
+								echo 'De assertividade em Nossas contratações';
+							}
+						?>
 						</span>
 					</div>
 				</div>
@@ -87,17 +165,17 @@ get_header(); ?>
 </div><!-- #wrapper header -->
 <div class="container-fluid">
 	<div class="row line-news">	
-		<div class="col-md-6">
+		<div class="col-xs-6 col-md-6">
 			<div class="red-destaque">
 				<h2> Red em Destaque </h2>
 			</div>
 		</div>				
-		<div class="col-md-4">
+		<div class="col-xs-4 col-md-4">
 			<div class="red-news">
 				<h2> Notícias </h2>
 			</div>
 		</div>
-		<div class="col-md-2">
+		<div class="col-xs-2 col-md-2">
 			<div class="red-more">
 				<a href="" title="Ver Todas as notícias"> Ver todas </a>
 			</div>
@@ -105,30 +183,58 @@ get_header(); ?>
 	</div>
 		<div class="row">
 			<!-- coluna destaque -->
-			<div class="col-md-6">	
+			<div class="col-xs-6 col-md-6">	
 
 					<div class="container-destaque">
 						<div class="box-destaque">
+						<?php
+								// WP_Query arguments
+								$args = array (
+									'post_type' => 'post',
+									'posts_per_page'         => '1',
+									'order'                  => 'DESC',
+								);
+
+								// The Query
+								$post_destaque = new WP_Query( $args );
+
+								$id_post = $post_destaque->post->ID;
+								$post_thumbnail_id = get_post_thumbnail_id( $id_post );
+								$image_post = wp_get_attachment_image_src($post_thumbnail_id, $size = 'full');
+
+								$alt = get_post_meta($post_thumbnail_id, '_wp_attachment_image_alt', true);
+
+								$post_date = get_the_date( 'd/n/Y', $id_post);
+								$post_title = $post_destaque->post->post_title;
+								$post_excerpt = $post_destaque->post->post_excerpt;;
+
+
+								//echo '<pre>'. print_r($post_excerpt, true) . '</pre>';
+							?>
 							<div class="img-destaque">
-								<img src="<?php echo get_template_directory_uri().'/assets/images/img-noticia.jpg'; ?>">
+								<?php
+									if( $image_post ){
+										echo '<img class="img-responsive" src="'.$image_post[0].'" alt="'.$alt.'">';
+									}else{
+										echo '<img class="img-responsive" src="'.get_template_directory_uri().'/assets/images/img-noticia-padrao.jpg" alt="'.$alt.'">';
+									}
+								?>
+								
 							</div>
 							<div class="content-news-destaque">
 								<div class="date-destaque">
-									30/9/2014
+									<?php echo $post_date;?>
 								</div>
 								<div class="title-destaque">
 									<h3>
 										<a href="#">
-										Para vencer na carreira há preços a pagar, diz Luiza Trajano
+										<?php echo $post_title; ?>
 										</a>
 									</h3>
 								</div>
 								<div class="description-news-destaque">
 									<p>
-										São Paulo - Luiza Helena Trajano começou a sua carreira na área de
-										vendas, aos 12 anos, quando abriu mão das férias escolares para
-										futures as solar and win met a record share of the country's demand 
-										last year.
+										<?php echo $post_excerpt; ?>
 									</p>
 								</div>
 							</div>
@@ -137,47 +243,66 @@ get_header(); ?>
 				
 			</div>
 					<!-- coluna noticias -->
-					<div class="col-md-6 collun-news-all">						
+					<div class="col-xs-6 col-md-6 collun-news-all">						
 							<div class="content-news-all">
+							<?php
+								// WP_Query arguments
+
+								$id_post_destaque = $id_post;
+								
+								$args = array (
+									'post_type' => 'post',
+									'post__not_in' => array($id_post_destaque),
+									'posts_per_page'         => '2',
+									'order'                  => 'DESC',
+
+									
+								);
+
+								// The Query
+								$post_all = new WP_Query( $args );							
+
+								
+							?>
 								<div class="box-content-all">
+								<?php if( $post_all->have_posts() ) { ?>
 									<ul>
+									<?php
+										while( $post_all->have_posts() ){
+											$post_all->the_post();
+
+											$id_post_all = $post_all->post->ID;
+											$all_id = $id_post_all['ID'];
+											$post_thumbnail_id = get_post_thumbnail_id( $id_post_all );
+											$image_post = wp_get_attachment_image_src($post_thumbnail_id, $size = 'full');
+
+											$post_date = get_the_date( 'd/n/Y', $id_post_all);
+											$post_title = $post_all->post->post_title;
+											$post_excerpt = $post_all->post->post_excerpt;
+
+											//echo '<pre>'. print_r($post_all->post->ID, true) . '</pre>';
+									?>
 										<li>
+
 											<div class="date-news-all">
-												30/9/2014
+												<?php echo $post_date;?>
 											</div>
 											<div class="title-news-all">
 												<h3>
 													<a href="#">
-														Nasdaq OMX Plans German renewable
-														Power futures in 2015
+														<?php echo $post_title; ?>
 													</a>
 												</h3>
 											</div>
 											<div class="description-news-all">
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius imperdiet pharetra. Nam in tempus orci, eget mattis nunc. Praesent ac maximus metus. Duis vel urna eget urna porta venenatis vehicula at est. In sit amet felis quis velit mollis ornare. Aliquam vestibulum sem elit. In rhoncus viverra libero eleifend porttitor. Aenean 
+													<?php echo $post_excerpt; ?>
 												</p>
 											</div>
 										</li>
-										<li>
-											<div class="date-news-all">
-												30/9/2014
-											</div>
-											<div class="title-news-all">
-												<h3>
-													<a href="#">
-														Nasdaq OMX Plans German renewable
-														Power futures in 2015
-													</a>
-												</h3>
-											</div>
-											<div class="description-news-all">
-												<p>
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius imperdiet pharetra. Nam in tempus orci, eget mattis nunc. Praesent ac maximus metus. Duis vel urna eget urna porta venenatis vehicula at est. In sit amet felis quis velit mollis ornare. Aliquam vestibulum sem elit. In rhoncus viverra libero eleifend porttitor. Aenean 
-												</p>
-											</div>
-										</li>		
-									</ul>	
+										<?php } //whille?>
+									</ul>
+									<?php } //have_post ?>	
 								</div>
 							</div>
 						</div>
