@@ -15,10 +15,10 @@
 
 get_header(); ?>
 
-	<main id="content" class="col-md-12" tabindex="-1" role="main">
+	<main id="content" class="col-sm-12 col-xs-12 col-md-12" tabindex="-1" role="main">
 		<div class="row">
-			<div class="col-xs-3 col-md-3 hidden-xs"></div>
-			<div class="col-xs-9 col-md-9">
+			<div class="col-sm-3 col-xs-3 col-md-3 hidden-xs"></div>
+			<div class="col-sm-9 col-xs-9 col-md-9">
 				<div class="title-banner">
 				<?php
 					$title_banner = get_field('titulo_banner', 'option');
@@ -44,14 +44,14 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-md-12 col-red-number">
+			<div class="col-sm-12 col-xs-12 col-md-12 col-red-number hidden-sm">
 				<div class="red-number">
 					Red em números
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-3 col-md-3" class="col-numbers">				
+			<div class="col-sm-3 col-xs-3 col-md-3" class="col-numbers">				
 				<div class="content-number">
 				<?php
 							$quadro1 = get_field('quadro_1', 'option');
@@ -87,7 +87,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-3 col-md-3" class="col-numbers">
+			<div class="col-sm-3 col-xs-3 col-md-3" class="col-numbers">
 				<div class="content-number">
 					<span>
 						<?php
@@ -111,7 +111,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-3 col-md-3" class="col-numbers">
+			<div class="col-sm-3 col-xs-3 col-md-3" class="col-numbers">
 				<div class="content-number">
 					<span> 
 						<?php
@@ -135,7 +135,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-3 col-md-3" class="col-numbers">
+			<div class="col-sm-3 col-xs-3 col-md-3" class="col-numbers">
 				<div class="content-number last-number">
 					<span>
 						<?php
@@ -164,26 +164,29 @@ get_header(); ?>
 </div><!-- #row header -->
 </div><!-- #wrapper header -->
 <div class="container-fluid">
-	<div class="row line-news">	
-		<div class="col-xs-6 col-md-6">
+	<div class="row linha-noticias visible-xs-*">
+		<h2>Noticias</h2>
+	<div class="row line-news hidden-xs">	
+		<div class="col-sm-6 col-xs-12 col-md-6">
 			<div class="red-destaque">
 				<h2> Red em Destaque </h2>
 			</div>
 		</div>				
-		<div class="col-xs-4 col-md-4">
+		<div class="col-sm-4 col-xs-4 col-md-4">
 			<div class="red-news">
 				<h2> Notícias </h2>
 			</div>
 		</div>
-		<div class="col-xs-2 col-md-2">
+		<div class="col-sm-2 col-xs-2 col-md-2">
 			<div class="red-more">
 				<a href="" title="Ver Todas as notícias"> Ver todas </a>
 			</div>
 		</div>		
 	</div>
+	</div>
 		<div class="row">
 			<!-- coluna destaque -->
-			<div class="col-xs-6 col-md-6">	
+			<div class="col-sm-12 col-xs-12 col-md-6">	
 
 					<div class="container-destaque">
 						<div class="box-destaque">
@@ -243,7 +246,7 @@ get_header(); ?>
 				
 			</div>
 					<!-- coluna noticias -->
-					<div class="col-xs-6 col-md-6 collun-news-all">						
+					<div class="col-sm-12 col-xs-12 col-md-6 collun-news-all">						
 							<div class="content-news-all">
 							<?php
 								// WP_Query arguments

@@ -93,7 +93,7 @@
 					if ( ! empty( $header_image ) ) :
 				?>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="<?php echo esc_url( $header_image ); ?>" height="<?php esc_attr_e( $header_image->height ); ?>" width="<?php esc_attr_e( $header_image->width ); ?>" alt="" />
+						<img class="img-responsive" src="<?php echo esc_url( $header_image ); ?>" height="<?php esc_attr_e( $header_image->height ); ?>" width="<?php esc_attr_e( $header_image->width ); ?>" alt="" />
 					</a>
 				<?php endif; ?>
 			</div><!-- .site-header-->
@@ -101,7 +101,7 @@
 			<div id="main-navigation" class="navbar navbar-default menu-top">
 				<div class="navbar-header">
 					<div class="logo-header hidden-md hidden-lg visible-xs-*">
-						<img src="<?php echo get_template_directory_uri().'/assets/images/logo.svg'; ?>">
+						<img class="img-responsive" src="<?php echo get_template_directory_uri().'/assets/images/logo.svg'; ?>">
 					</div>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-navigation">
 					<span class="sr-only"><?php _e( 'Toggle navigation', 'odin' ); ?></span>
@@ -111,10 +111,10 @@
 					</button>
 				</div>
 				<nav class="collapse navbar-collapse navbar-main-navigation barra-menu" role="navigation">
-					<div class="col-md-3 logo-topo hidden-xs">
-						<img src="<?php echo get_template_directory_uri().'/assets/images/logo.svg'; ?>">
+					<div class="col-sm-3 col-xs-3 col-md-3 logo-topo hidden-xs">
+						<img class="img-responsive" src="<?php echo get_template_directory_uri().'/assets/images/logo.svg'; ?>">
 					</div>
-					<div class="col-md-9 menu-topo">
+					<div class="col-sm-9 col-xs-9 col-md-9 menu-topo">
 					<div class="rede-social">
 						<ul class="list-inline">
 						<?php

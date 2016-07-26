@@ -10093,35 +10093,35 @@ img#wpstats {
 
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(1) {
-  font-size: 14px!important;
+  font-size: 19px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(2) {
-  font-size: 20px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(3) {
   font-size: 16px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(3) {
+  font-size: 14px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(4) {
-  font-size: 19px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(5) {
-  font-size: 28px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(6) {
-  font-size: 19px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(7) {
   font-size: 25px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(5) {
+  font-size: 29px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(6) {
+  font-size: 16px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(7) {
+  font-size: 28px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(8) {
-  font-size: 22px!important;
+  font-size: 27px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(9) {
@@ -10129,15 +10129,15 @@ img#wpstats {
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(10) {
-  font-size: 25px!important;
+  font-size: 14px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(11) {
-  font-size: 19px!important;
+  font-size: 29px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(12) {
-  font-size: 30px!important;
+  font-size: 24px!important;
 }
 
 /* line 249, ../sass/wordpress/_wordpress.scss */
@@ -10431,127 +10431,224 @@ button:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hove
   background-color: #fff;
 }
 
+/* line 159, ../sass/menu.scss */
+.linha-noticias {
+  background-color: #b81e24;
+  margin-top: 31px;
+  text-align: center;
+  color: #fff;
+  font-family: "akkrgpro1";
+}
+
 @media (max-width: 767px) {
-  /* line 163, ../sass/menu.scss */
+  /* line 170, ../sass/menu.scss */
   .logo-header {
     float: left;
   }
-  /* line 165, ../sass/menu.scss */
+  /* line 172, ../sass/menu.scss */
   .logo-header img {
     width: 49px;
   }
 
-  /* line 169, ../sass/menu.scss */
+  /* line 176, ../sass/menu.scss */
   .nav > li {
     display: inline-block;
   }
 
-  /* line 172, ../sass/menu.scss */
+  /* line 179, ../sass/menu.scss */
   .navbar-default .navbar-nav li {
     float: left;
   }
 
-  /* line 175, ../sass/menu.scss */
+  /* line 182, ../sass/menu.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
   }
 
-  /* line 178, ../sass/menu.scss */
+  /* line 185, ../sass/menu.scss */
   .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 0px;
   }
 
-  /* line 181, ../sass/menu.scss */
+  /* line 188, ../sass/menu.scss */
   .navbar-brand .visible-xs-block {
     display: none !important;
   }
 
-  /* line 184, ../sass/menu.scss */
+  /* line 191, ../sass/menu.scss */
   .navbar-nav .open .dropdown-menu {
     position: relative;
   }
 
-  /* line 187, ../sass/menu.scss */
+  /* line 194, ../sass/menu.scss */
   .dropdown-menu {
     position: relative;
   }
 
-  /* line 190, ../sass/menu.scss */
+  /* line 197, ../sass/menu.scss */
   .banner, .container-banner, .container-banner > img {
     width: auto;
   }
 
-  /* line 193, ../sass/menu.scss */
+  /* line 200, ../sass/menu.scss */
   .title-banner {
     margin-top: 0;
   }
 
-  /* line 196, ../sass/menu.scss */
+  /* line 203, ../sass/menu.scss */
   .red-number {
     margin-top: 0;
   }
 
-  /* line 199, ../sass/menu.scss */
+  /* line 206, ../sass/menu.scss */
   .content-number {
     margin-bottom: 0;
     float: left;
   }
 
-  /* line 203, ../sass/menu.scss */
-  .last-number {
-    border-right: 1px solid #fff;
-  }
-
-  /* line 206, ../sass/menu.scss */
+  /* line 213, ../sass/menu.scss */
   .content-number span {
-    font-size: 20px;
+    font-size: 10px;
   }
 
-  /* line 209, ../sass/menu.scss */
+  /* line 216, ../sass/menu.scss */
   .content-number .description-numbers {
-    padding: 0 15px;
+    padding: 0 5px;
   }
-  /* line 211, ../sass/menu.scss */
+  /* line 218, ../sass/menu.scss */
   .content-number .description-numbers span {
     font-size: 12px;
   }
 
-  /* line 215, ../sass/menu.scss */
+  /* line 222, ../sass/menu.scss */
   .line-news {
     margin-top: 95px;
   }
+
+  /* line 225, ../sass/menu.scss */
+  .linha-noticias {
+    margin-top: 81px;
+  }
 }
-/* line 219, ../sass/menu.scss */
+/* line 229, ../sass/menu.scss */
 .container-destaque .box-destaque .content-news-destaque .title-destaque h3 {
   font-size: 14px;
 }
 
-/* line 222, ../sass/menu.scss */
+/* line 232, ../sass/menu.scss */
 .container-destaque {
   padding-top: 40px;
 }
 
-/* line 225, ../sass/menu.scss */
+/* line 235, ../sass/menu.scss */
 .content-news-all {
   padding-top: 55px;
 }
 
-/* line 228, ../sass/menu.scss */
+/* line 238, ../sass/menu.scss */
 .description-news-destaque p {
   font-size: 12px;
 }
 
-/* line 231, ../sass/menu.scss */
+/* line 241, ../sass/menu.scss */
 .box-content-all ul li .title-news-all h3 {
   font-size: 14px;
 }
 
-/* line 236, ../sass/menu.scss */
+/* line 246, ../sass/menu.scss */
 .box-content-all ul li {
   padding-bottom: 25px;
 }
-/* line 239, ../sass/menu.scss */
+/* line 249, ../sass/menu.scss */
 .box-content-all ul li .description-news-all p {
   margin-bottom: 15px;
   font-size: 12px;
+}
+
+/* line 258, ../sass/menu.scss */
+.title-banner h2 {
+  font-size: 31px;
+}
+
+@media (max-width: 665px) {
+  /* line 262, ../sass/menu.scss */
+  .content-number .description-numbers span {
+    font-size: 6px;
+  }
+
+  /* line 265, ../sass/menu.scss */
+  .line-news {
+    margin-top: 38px;
+  }
+
+  /* line 268, ../sass/menu.scss */
+  .linha-noticias {
+    margin-top: 86px;
+  }
+}
+@media (max-width: 615px) {
+  /* line 273, ../sass/menu.scss */
+  .content-number {
+    margin: 3px 0px;
+  }
+
+  /* line 276, ../sass/menu.scss */
+  .line-news {
+    margin-top: 23px;
+  }
+
+  /* line 279, ../sass/menu.scss */
+  .linha-noticias {
+    margin-top: 21px;
+  }
+}
+@media only screen and (min-width: 513px) and (max-width: 614px) {
+  /* line 284, ../sass/menu.scss */
+  .linha-noticias {
+    margin-top: 14px;
+  }
+
+  /* line 287, ../sass/menu.scss */
+  .title-banner h2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 512px) {
+  /* line 292, ../sass/menu.scss */
+  #header #main-navigation {
+    margin-top: 50px;
+  }
+
+  /* line 295, ../sass/menu.scss */
+  .title-banner h2 {
+    font-size: 10px;
+    height: 0px;
+  }
+
+  /* line 299, ../sass/menu.scss */
+  .title-banner h3 {
+    font-size: 10px;
+    width: 292px;
+    margin-top: 15px;
+  }
+
+  /* line 304, ../sass/menu.scss */
+  .banner, .container-banner, .container-banner > img {
+    height: 48%;
+  }
+
+  /* line 307, ../sass/menu.scss */
+  .red-destaque {
+    padding-left: 10px;
+  }
+
+  /* line 310, ../sass/menu.scss */
+  .red-destaque h2, .red-news h2 {
+    font-size: 8px;
+  }
+
+  /* line 313, ../sass/menu.scss */
+  .linha-noticias {
+    margin-top: 77px;
+  }
 }
