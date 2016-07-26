@@ -10093,51 +10093,51 @@ img#wpstats {
 
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(1) {
-  font-size: 19px!important;
+  font-size: 15px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(2) {
-  font-size: 16px!important;
+  font-size: 23px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(3) {
-  font-size: 14px!important;
+  font-size: 18px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(4) {
-  font-size: 25px!important;
+  font-size: 30px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(5) {
-  font-size: 29px!important;
+  font-size: 15px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(6) {
-  font-size: 16px!important;
-}
-/* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(7) {
   font-size: 28px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
-.widget_tag_cloud a:nth-child(8) {
+.widget_tag_cloud a:nth-child(7) {
   font-size: 27px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
+.widget_tag_cloud a:nth-child(8) {
+  font-size: 26px!important;
+}
+/* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(9) {
-  font-size: 16px!important;
+  font-size: 15px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(10) {
-  font-size: 14px!important;
+  font-size: 18px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(11) {
-  font-size: 29px!important;
+  font-size: 30px!important;
 }
 /* line 237, ../sass/wordpress/_wordpress.scss */
 .widget_tag_cloud a:nth-child(12) {
-  font-size: 24px!important;
+  font-size: 17px!important;
 }
 
 /* line 249, ../sass/wordpress/_wordpress.scss */
@@ -10530,124 +10530,94 @@ button:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hove
     margin-top: 81px;
   }
 }
-/* line 229, ../sass/menu.scss */
-.container-destaque .box-destaque .content-news-destaque .title-destaque h3 {
-  font-size: 14px;
-}
-
-/* line 232, ../sass/menu.scss */
+/* line 230, ../sass/menu.scss */
 .container-destaque {
   padding-top: 40px;
 }
 
-/* line 235, ../sass/menu.scss */
+/* line 233, ../sass/menu.scss */
 .content-news-all {
   padding-top: 55px;
 }
 
-/* line 238, ../sass/menu.scss */
-.description-news-destaque p {
-  font-size: 12px;
-}
-
-/* line 241, ../sass/menu.scss */
-.box-content-all ul li .title-news-all h3 {
-  font-size: 14px;
-}
-
-/* line 246, ../sass/menu.scss */
-.box-content-all ul li {
-  padding-bottom: 25px;
-}
-/* line 249, ../sass/menu.scss */
-.box-content-all ul li .description-news-all p {
-  margin-bottom: 15px;
-  font-size: 12px;
-}
-
-/* line 258, ../sass/menu.scss */
-.title-banner h2 {
-  font-size: 31px;
-}
-
 @media (max-width: 665px) {
-  /* line 262, ../sass/menu.scss */
+  /* line 248, ../sass/menu.scss */
   .content-number .description-numbers span {
     font-size: 6px;
   }
 
-  /* line 265, ../sass/menu.scss */
+  /* line 251, ../sass/menu.scss */
   .line-news {
     margin-top: 38px;
   }
 
-  /* line 268, ../sass/menu.scss */
+  /* line 254, ../sass/menu.scss */
   .linha-noticias {
     margin-top: 86px;
   }
 }
 @media (max-width: 615px) {
-  /* line 273, ../sass/menu.scss */
+  /* line 259, ../sass/menu.scss */
   .content-number {
     margin: 3px 0px;
   }
 
-  /* line 276, ../sass/menu.scss */
+  /* line 262, ../sass/menu.scss */
   .line-news {
     margin-top: 23px;
   }
 
-  /* line 279, ../sass/menu.scss */
+  /* line 265, ../sass/menu.scss */
   .linha-noticias {
     margin-top: 21px;
   }
 }
 @media only screen and (min-width: 513px) and (max-width: 614px) {
-  /* line 284, ../sass/menu.scss */
+  /* line 270, ../sass/menu.scss */
   .linha-noticias {
     margin-top: 14px;
   }
 
-  /* line 287, ../sass/menu.scss */
+  /* line 273, ../sass/menu.scss */
   .title-banner h2 {
     font-size: 25px;
   }
 }
 @media only screen and (min-width: 300px) and (max-width: 512px) {
-  /* line 292, ../sass/menu.scss */
+  /* line 278, ../sass/menu.scss */
   #header #main-navigation {
     margin-top: 50px;
   }
 
-  /* line 295, ../sass/menu.scss */
+  /* line 281, ../sass/menu.scss */
   .title-banner h2 {
     font-size: 10px;
     height: 0px;
   }
 
-  /* line 299, ../sass/menu.scss */
+  /* line 285, ../sass/menu.scss */
   .title-banner h3 {
     font-size: 10px;
     width: 292px;
     margin-top: 15px;
   }
 
-  /* line 304, ../sass/menu.scss */
+  /* line 290, ../sass/menu.scss */
   .banner, .container-banner, .container-banner > img {
     height: 48%;
   }
 
-  /* line 307, ../sass/menu.scss */
+  /* line 293, ../sass/menu.scss */
   .red-destaque {
     padding-left: 10px;
   }
 
-  /* line 310, ../sass/menu.scss */
+  /* line 296, ../sass/menu.scss */
   .red-destaque h2, .red-news h2 {
     font-size: 8px;
   }
 
-  /* line 313, ../sass/menu.scss */
+  /* line 299, ../sass/menu.scss */
   .linha-noticias {
     margin-top: 77px;
   }

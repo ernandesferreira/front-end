@@ -164,9 +164,7 @@ get_header(); ?>
 </div><!-- #row header -->
 </div><!-- #wrapper header -->
 <div class="container-fluid">
-	<div class="row linha-noticias visible-xs-*">
-		<h2>Noticias</h2>
-	<div class="row line-news hidden-xs">	
+	<div class="row line-news visible-md-* hidden-xs">	
 		<div class="col-sm-6 col-xs-12 col-md-6">
 			<div class="red-destaque">
 				<h2> Red em Destaque </h2>
@@ -182,7 +180,6 @@ get_header(); ?>
 				<a href="" title="Ver Todas as notícias"> Ver todas </a>
 			</div>
 		</div>		
-	</div>
 	</div>
 		<div class="row">
 			<!-- coluna destaque -->
